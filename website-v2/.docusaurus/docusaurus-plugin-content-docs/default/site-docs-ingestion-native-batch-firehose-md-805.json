@@ -1,0 +1,31 @@
+{
+  "unversionedId": "ingestion/native-batch-firehose",
+  "id": "ingestion/native-batch-firehose",
+  "title": "Native batch ingestion with firehose",
+  "description": "<!--",
+  "source": "@site/../docs/ingestion/native-batch-firehose.md",
+  "sourceDirName": "ingestion",
+  "slug": "/ingestion/native-batch-firehose",
+  "permalink": "/docs/ingestion/native-batch-firehose",
+  "draft": false,
+  "editUrl": "https://github.com/apache/druid/edit/master/docs/../docs/ingestion/native-batch-firehose.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "id": "native-batch-firehose",
+    "title": "Native batch ingestion with firehose",
+    "sidebar_label": "Firehose (deprecated)"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Select",
+    "permalink": "/docs/querying/select-query"
+  },
+  "next": {
+    "title": "Native batch (simple)",
+    "permalink": "/docs/ingestion/native-batch-simple-task"
+  }
+}
