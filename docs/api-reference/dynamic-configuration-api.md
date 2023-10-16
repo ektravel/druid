@@ -33,6 +33,8 @@ In this topic, `http://ROUTER_IP:ROUTER_PORT` is a placeholder for your Router s
 Replace it with the information for your deployment.
 For example, use `http://localhost:8888` for quickstart deployments.
 
+In this document, `http://SERVICE_IP:SERVICE_PORT` is a placeholder for the server address of deployment and the service port. For example, on the quickstart configuration, replace `http://ROUTER_IP:ROUTER_PORT` with `http://localhost:8888`.
+
 ## Coordinator dynamic configuration
 
 The Coordinator has dynamic configurations to tune certain behavior on the fly, without requiring a service restart.
@@ -611,7 +613,6 @@ Host: http://ROUTER_IP:ROUTER_PORT
     }
 ]
 ```
-
 </details>
 
 ### Get scaling events
@@ -644,9 +645,6 @@ Returns an empty response body if there are no Overlord scaling events.
 <TabItem value="23" label="cURL">
 
 
-```shell
-curl "http://ROUTER_IP:ROUTER_PORT/druid/indexer/v1/scaling"
-```
 ```shell
 curl "http://ROUTER_IP:ROUTER_PORT/druid/indexer/v1/scaling"
 ```
